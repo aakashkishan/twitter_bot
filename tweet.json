@@ -1,0 +1,90 @@
+{
+  "created_at": "Sat Jan 14 11:48:26 +0000 2017",
+  "id": 820236125516218400,
+  "id_str": "820236125516218368",
+  "text": "@a2zbot testing twitter bot #codingtwitterbot",
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": 819834118972338200,
+  "in_reply_to_user_id_str": "819834118972338176",
+  "in_reply_to_screen_name": "a2zBot",
+  "user": {
+    "id": 3872259074,
+    "id_str": "3872259074",
+    "name": "anonymous001",
+    "screen_name": "barelythere001",
+    "location": null,
+    "url": null,
+    "description": null,
+    "protected": false,
+    "verified": false,
+    "followers_count": 12,
+    "friends_count": 97,
+    "listed_count": 0,
+    "favourites_count": 31,
+    "statuses_count": 10,
+    "created_at": "Mon Oct 12 18:29:38 +0000 2015",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/653646220594810880/pLEUs-I6_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/653646220594810880/pLEUs-I6_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3872259074/1444676455",
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [
+      {
+        "text": "codingtwitterbot",
+        "indices": [
+          28,
+          45
+        ]
+      }
+    ],
+    "urls": [],
+    "user_mentions": [
+      {
+        "screen_name": "a2zBot",
+        "name": "aakash kishan",
+        "id": 819834118972338200,
+        "id_str": "819834118972338176",
+        "indices": [
+          0,
+          7
+        ]
+      }
+    ],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1484394506230"
+}
