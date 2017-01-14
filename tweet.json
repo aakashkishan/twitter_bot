@@ -1,8 +1,8 @@
 {
-  "created_at": "Sat Jan 14 11:48:26 +0000 2017",
-  "id": 820236125516218400,
-  "id_str": "820236125516218368",
-  "text": "@a2zbot testing twitter bot #codingtwitterbot",
+  "created_at": "Sat Jan 14 13:59:01 +0000 2017",
+  "id": 820268987195985900,
+  "id_str": "820268987195985920",
+  "text": "@a2zBot Testing the twitter bot one last time. God bless the Bot. #codingtwitterbot",
   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
   "truncated": false,
   "in_reply_to_status_id": null,
@@ -24,7 +24,7 @@
     "friends_count": 97,
     "listed_count": 0,
     "favourites_count": 31,
-    "statuses_count": 10,
+    "statuses_count": 14,
     "created_at": "Mon Oct 12 18:29:38 +0000 2015",
     "utc_offset": null,
     "time_zone": null,
@@ -62,8 +62,8 @@
       {
         "text": "codingtwitterbot",
         "indices": [
-          28,
-          45
+          66,
+          83
         ]
       }
     ],
@@ -86,5 +86,5 @@
   "retweeted": false,
   "filter_level": "low",
   "lang": "en",
-  "timestamp_ms": "1484394506230"
+  "timestamp_ms": "1484402341065"
 }

@@ -113,7 +113,7 @@ function mentionBot() {
 
             //Tweet the @mentioner this message.
             //Check to see if they mentioned the bot in their tweet.
-            if(tweetTo === 'a2zBot') {
+            if (tweetTo === 'a2zBot') {
                 
                 tweetThis('@' + tweetFrom + 'Thank you for tweeting me.');
             }
