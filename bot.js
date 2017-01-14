@@ -98,6 +98,27 @@ function mentionBot() {
         var json = JSON.stringify(event, null, 2);
         //Write the mentioner's info into a file tweet.json Synchronously.
         fs.writeFileSync("tweet.json", json);
+
+        //Call the replier bot function.
+        replierBot();
+
+        //replierBot function replies to the @mentioner.
+        function replierBot() {
+
+            //@mentioner and @mentionee.
+            var tweetTo = event.in_reply_to_screen_name;
+            var tweetFrom = event.user.screen_name;
+            
+            console.log('To: ' + tweetTo + ' From: ' + tweetFrom);
+
+            //Tweet the @mentioner this message.
+            //Check to see if they mentioned the bot in their tweet.
+            if(tweetTo === 'a2zBot') {
+                
+                tweetThis('@' + tweetFrom + 'Thank you for tweeting me.');
+            }
+
+        }
     }
 }
 
