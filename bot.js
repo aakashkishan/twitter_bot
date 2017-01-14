@@ -1,5 +1,13 @@
-console.log('This will is the Twitter bot');
+/* Twitter Bot
+*   This Twitter Bot was built using node.js and the twit package abd deployed using heroku as a worker application
+*   This Bot can search for tweets using a get request.
+*   It can tweet statuses and images using a post request.
+*   It can also @mention some who follows the bot 
+*   and reply to the account that @mentions the bot. 
+*/
 
+
+console.log('THIS IS THE TWITTER BOT');
 
 //Include the packages necessary for the twitter bot.
 var Twit = require('twit');
