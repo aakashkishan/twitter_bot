@@ -1,0 +1,21 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "It is a simple twitter bot for tweeting, re-tweeting, following etc. using the twit module.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "tweet",
+    "twit"
+  ],
+  "author": "Aakash Kishan",
+  "license": "MIT",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
