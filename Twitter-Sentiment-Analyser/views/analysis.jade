@@ -1,0 +1,51 @@
+doctype html
+html
+  head
+    title Twitter Sentiment Analyser
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    // <link rel="stylesheet" href="./style.css">
+    link(href='https://fonts.googleapis.com/css?family=Oswald:700', rel='stylesheet')
+    link(rel='icon', href='http://68.media.tumblr.com/e142d090eca481ad7b09059d1c48694c/tumblr_obgdukowDj1vcrrhko1_250.png')
+    style.
+      body {
+      background-color: #24292E;
+      }
+      h1 {
+      font-family: 'Oswald';
+      color: #449D44;
+      }
+      .input-label {
+      font-family: 'Oswald';
+      color: #449D44;
+      font-size: 15px;
+      }
+      .input-text {
+      background-color: #3F4347;
+      border: 3px;
+      border-color: #3F4347;
+      border-radius: 5px;
+      height: 34px;
+      color: #449D44;
+      }
+      .btn {
+      border-radius: 5px !important;
+      color: #24292E;
+      font-size: 15px;
+      font-weight: bold;
+      }
+      .gotten-result {
+      color: #449D44;
+      font-family: 'Oswald';
+      font-size: 14px;
+      font-weight: thin;
+      }
+  body
+    .container
+      h1 Twitter Sentiment Analysis
+      form(action='/twitter-sentiment-analyser', method='get')
+        span.input-label Enter the Word / Text to be Analysed: 
+        br
+        input.input-text(type='text', value='Analyse Text', name='analyse_text')
+        button.btn.btn-success(type='submit') Analyse-Sentiment
+      br
+      p.gotten-result=result
