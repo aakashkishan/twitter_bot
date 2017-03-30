@@ -1,0 +1,21 @@
+{
+  "name": "twitter_sentiment_analyser",
+  "version": "1.0.0",
+  "description": "An Experiment to analyse the sentiment nature of a tweet using node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Twitter-Sentiment-Analyser",
+    "Sentiment-Analyser"
+  ],
+  "author": "Aakash Kishan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "sentiment": "^3.0.1"
+  }
+}

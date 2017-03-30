@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Oswald';
+    color: #449D44;
+}
+
+.input-phrase {
+    background-color: #3F4347;
+    border: 3px;
+    border-color: #3F4347;
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px !important;
+}
