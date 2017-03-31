@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title Twitter Sentiment Analyser
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    // <link rel="stylesheet" href="./style.css">
+    link(href='https://fonts.googleapis.com/css?family=Oswald:700', rel='stylesheet')
+    link(rel='icon', href='http://68.media.tumblr.com/e142d090eca481ad7b09059d1c48694c/tumblr_obgdukowDj1vcrrhko1_250.png')
+    style.
+      body {
+      background-color: #24292E;
+      }
+      h1 {
+      font-family: 'Oswald';
+      color: #754D91;
+      }
+      .btn {
+      border-radius: 5px !important;
+      background-color: #754D91 !important;
+      border-color: #754D91 !important;
+      color: #24292E;
+      font-size: 15px;
+      font-weight: bold;
+      }
+      .image {
+      height: 100px;
+      width: 100px;
+      }
+  body
+    .container
+      h1 Error
+      img.img-responsive.image(src="http://eglx.ca/wp-content/uploads/2016/01/Twitter-icon.png")
+      form(action='/twitter-sentiment-analyser', method='get')
+        button.btn.btn-success(type='submit') Twitter-Sentiment-Analyser
